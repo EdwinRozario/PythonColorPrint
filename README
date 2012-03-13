@@ -2,9 +2,11 @@ Code name: color.py
 
 Purpose: To print a string in color
 
-Use:
+Use: Copy color.py to your working directory
 
 from color import ColorPrint
 
-ColorPrint("hello").red
+ColorPrint("hello").red # Will print hello in red
 ColorPrint("hello").green
+ColorPrint("hello").RED # Will print hello highlited in red
+ColorPrint("hello").GREEN
