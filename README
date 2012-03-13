@@ -1,2 +1,10 @@
+Code name: color.py
 
-foo
+Purpose: To print a string in color
+
+Use:
+
+from color import ColorPrint
+
+ColorPrint("hello").red
+ColorPrint("hello").green
